@@ -50,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="text-black">
       <body
         className={`${clashDisplay.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >

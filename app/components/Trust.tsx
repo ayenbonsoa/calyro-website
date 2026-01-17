@@ -2,7 +2,7 @@ import { ClockIcon, ChatBubbleLeftEllipsisIcon, ShieldCheckIcon} from '@heroicon
 
 export default function Trust() {
     return (
-      <div className="font-clash-display space-y-12 pt-12 px-6 sm:px-24 bg-white text-black">
+      <div className="font-clash-display space-y-12 pt-12 px-6 sm:px-24 bg-white">
         <div className="flex justify-center">
           <div className="lg:w-3/6 py-6 space-y-5">
             <h1 className="text-2xl sm:text-6xl font-medium text-center">Find out why millions worldwide trust Snap</h1>

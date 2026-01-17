@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="font-clash-display">
+    <div className="font-clash-display bg-cream">
       <div className="flex justify-center">
         <div className="lg:w-3/6 py-6 space-y-5">
           <h1 className="text-5xl sm:text-8xl font-bold lg:font-medium text-center">Send money online with Snap</h1>
