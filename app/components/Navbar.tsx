@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Foires aux questions', href: '#', current: false },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: (string | undefined | null | false)[]) {
   return classes.filter(Boolean).join(' ')
 }
 
