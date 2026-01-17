@@ -10,7 +10,7 @@ import Footer from "./components/Footer"
 
 export default function Home() {
   return (
-    <div className="items-center justify-center">
+    <div className="items-center justify-center text-black">
       <div className="w-full h-52 flex justify-center" style={{ backgroundImage: "url('/images/navbar-bg.svg')", backgroundSize: "cover", backgroundPosition: "center" }}>
         <Navbar />
       </div>
