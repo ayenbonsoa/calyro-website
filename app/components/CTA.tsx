@@ -3,7 +3,7 @@
 export default function CTA() {
     return (
         <div className="px-6 sm:px-24 pt-24 text-white bg-white relative">
-         <div className="flex justify-center bg-red-500"> <img src="/svg/calyro_logo.svg" alt="transfering worldwide" className="h-32 absolute -top-0"/></div>
+         <div className="flex justify-center bg-red-500"> <img src="/images/calyro_logo.png" alt="transfering worldwide" className="h-32 absolute -top-0"/></div>
           <div className="font-clash-display py-24 bg-blue-600 rounded-3xl">
             <div className="flex justify-center">
             <div className="bg-pink-500 text-white rounded-full px-6 py-1">#1 Online Banking Platform</div>

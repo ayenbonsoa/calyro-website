@@ -30,7 +30,7 @@ export default function Example() {
             <div className="flex shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="/svg/calyro_logo.svg"
+                src="/images/calyro_logo.png"
                 className="h-8 w-auto"
               />
             </div>
