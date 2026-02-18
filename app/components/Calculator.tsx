@@ -12,7 +12,7 @@ export default function Calculator() {
           </div>
         </div>
         <div className="flex justify-center">
-            <img src="/images/calculator.png" alt="transfering worldwide" className=""/>
+            <img className="max-w-3xl lg:max-w-full" src="/images/calculator.png" alt="transfering worldwide"/>
         </div>
       </div>
     )

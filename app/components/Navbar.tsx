@@ -2,10 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuIt
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Calculatrice', href: '#', current: true },
-  { name: 'Platformes', href: '#', current: false },
-  { name: 'Temoignages', href: '#', current: false },
-  { name: 'Foires aux questions', href: '#', current: false },
+  { name: 'Temoignages', href: '/#testimony', current: false },
 ]
 
 function classNames(...classes: (string | undefined | null | false)[]) {
@@ -26,10 +23,10 @@ export default function Example() {
               <XMarkIcon aria-hidden="true" className="hidden size-6 group-data-open:block" />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex shrink-0 items-center">
+          <div className="flex flex-1 items-center sm:justify-center sm:items-stretch sm:justify-start">
+            <div className="flex shrink-0 items-center ml-12 lg:ml-0">
               <img
-                alt="Your Company"
+                alt="Calyro"
                 src="/images/calyro_logo.png"
                 className="h-8 w-auto"
               />
@@ -43,8 +40,8 @@ export default function Example() {
                     href={item.href}
                     aria-current={item.current ? 'page' : undefined}
                     className={classNames(
-                      item.current ? 'text-blue-500 font-bold' : 'font-medium text-black hover:text-black/50',
-                      'px-3 py-2 text-md',
+                      item.current ? 'text-blue-500 font-bold' : 'font-medium text-[#C2983E] hover:text-black/50',
+                      'px-3 py-2 text-lg',
                     )}
                   >
                     {item.name}
@@ -54,10 +51,14 @@ export default function Example() {
             </div>
           </div>
           <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <button className="sm:inline bg-blue-500 text-lg  text-white px-4 py-2 rounded-full">
-            <span className="sm:hidden">Recevoir</span>
-            <span className='hidden sm:inline'>Recevoir de l'argent</span>
-          </button>
+            <a href='https://wa.me/message/HVS3TCM4KASIM1' target='_blank' title='Support WhatsApp' rel='noopener noreferrer' aria-label='Support WhatsApp' className="bg-[#C2983E] text-lg text-white px-4 py-2 rounded-full flex items-center gap-2">
+              <div className="h-6 w-6 rounded-full border-3 border-white">
+                <img src="/images/whatsapp.jpg" alt="whatsapp" className="h-6 w-6 rounded-full object-cover object-top" />
+              </div>
+              <div className="text-white">
+                <span className='hidden sm:inline'>Support </span>
+                 WhatsApp</div>
+            </a>
           </div>
         </div>
       </div>
@@ -71,8 +72,8 @@ export default function Example() {
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(
-                item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-white/5 hover:text-white',
-                'block rounded-md px-3 py-2 text-base font-medium',
+                item.current ? 'bg-gray-900 text-white' : 'text-[#C2983E] border-0 border-b-1 hover:bg-white/5 hover:text-white',
+                'block px-3 py-2 text-base font-medium',
               )}
             >
               {item.name}

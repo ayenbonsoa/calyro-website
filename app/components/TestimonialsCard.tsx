@@ -1,6 +1,7 @@
 type Card = {
     image: string;
     name: string;
+    testimonial: string;
     handle: string;
     date: string;
 };
@@ -11,25 +12,29 @@ const App = () => {
             image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200',
             name: 'Briar Martin',
             handle: '@neilstellar',
+            testimonial: 'Processus simple, accompagnement professionnel, je recommande Calyro sans hésiter.',
             date: 'April 20, 2025'
         },
         {
             image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
-            date: 'May 10, 2025'
+            name: 'Jeffrey Winner',
+            testimonial: 'Calyro m’a permis de retirer mes gains facilement, avec une transparence totale.',
+            handle: '@jeffreywinner',
+            date: 'Jan 10, 2025'
         },
         {
             image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=200&auto=format&fit=crop&q=60',
             name: 'Jordan Lee',
+            testimonial: 'Une solution efficace pour transformer mes revenus digitaux en argent réel.',
             handle: '@jordantalks',
             date: 'June 5, 2025'
         },
         {
             image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
-            date: 'May 10, 2025'
+            name: 'Jeremie Lawson',
+            testimonial: 'Service rapide, clair et fiable, mes revenus TikTok enfin accessibles sans stress.',
+            handle: '@jeremielawson',
+            date: 'Fevrier 22, 2025'
         },
     ];
 
@@ -47,11 +52,10 @@ const App = () => {
                     <span className="text-xs text-slate-500">{card.handle}</span>
                 </div>
             </div>
-            <p className="text-sm py-4 text-gray-800">Radiant made undercutting all of our competitors an absolute
-                breeze.</p>
+            <p className="text-sm py-4 text-gray-800">{card.testimonial}</p>
             <div className="flex items-center justify-between text-slate-500 text-xs">
                 <div className="flex items-center gap-1">
-                    <span>Posted on</span>
+                    <span>Poster sur</span>
                     <a href="https://x.com" target="_blank" className="hover:text-sky-500">
                         <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="m.027 0 4.247 5.516L0 10h.962l3.742-3.926L7.727 10H11L6.514 4.174 10.492 0H9.53L6.084 3.616 3.3 0zM1.44.688h1.504l6.64 8.624H8.082z" fill="currentColor" />

@@ -5,8 +5,8 @@ import Trust from "./components/Trust";
 import Calculator from "./components/Calculator";
 import Process from "./components/Process"
 import Testimonies from "./components/Testimonies";
-import CTA from "./components/CTA"
-import Footer from "./components/Footer"
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <Hero />
       <Trust />
-      <Calculator />
+
       <Process />
       <Testimonies />
       <CTA />
