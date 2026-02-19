@@ -1,7 +1,8 @@
 export default function Calculator() {
     return (
-      <div className="font-clash-display px-6 sm:px-24 pt-24 bg-white text-[#C2983E]">
-        <div className="sm:flex">
+      <div id="services" className="font-clash-display px-6 sm:px-24 pt-12 bg-white text-[#C2983E]">
+        <img src="/images/divider.png" alt="" />
+        <div className="sm:flex pt-12 ">
             <div className="w-full lg:w-8/12 py-6 space-y-5 lg:pr-48">
                 <h1 className="text-3xl sm:text-6xl font-medium">Liste de nos services</h1>
                 <h2 className="text-lg xl:text-2xl  lg:text-left">Des milliers de personnes nous accordent leur confiance pour la gestion de leurs transferts et de leurs démarches administratives.</h2>
